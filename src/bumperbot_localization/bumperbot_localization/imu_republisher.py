@@ -3,7 +3,7 @@ import rclpy
 import time
 from rclpy.node import Node
 from sensor_msgs.msg import Imu
-import math
+
 imu_pub = None
 
 def imuCallback(imu):
